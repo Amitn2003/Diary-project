@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header {
+    margin: 2%;
+    padding: 1%;
+}
+form {
+    margin: auto;
+    padding: 10%;
+    width : 80%;
+    height: 40%;
+}
+form label, form input, form button {
+     display: block;
+     width: 80%;
+     padding: 2%;
+     margin: 1%;
+     font-size: large;
+}
+button {
+    padding: 10px;
+    margin: 2px 50px;
+    background-color: green;
+}
+button:hover, .delete {
+    cursor: pointer;
+    color:red;
+}
+.diary {
+    height:auto;
+    width: 80vw;
+    margin: 5% 15%;
+}
+textarea, input, form button{
+    width: 70vw;
+    margin-bottom: 5vw;
+    border-radius: 1vw;
+}
