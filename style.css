@@ -3,39 +3,55 @@
     margin: 0px;
     font-family: sans-serif;
 }
+
 header {
     margin: 2%;
     padding: 1%;
 }
-form {
+
+.imp form {
     margin: auto;
     padding: 10%;
-    width : 80%;
+    width: 80%;
     height: 40%;
 }
-form label, form input, form button {
-     display: block;
-     width: 80%;
-     padding: 2%;
-     margin: 1%;
-     font-size: large;
+
+form label,
+form input,
+form button {
+    display: block;
+    width: 90%;
+    padding: 2%;
+    margin: 1%;
+    font-size: large;
 }
-button {
+.submitBtn {
     padding: 10px;
-    margin: 2px 50px;
-    background-color: green;
-}
-button:hover, .delete {
+    margin: 2px 0px;
+    background-color: rgb(13, 169, 174);
     cursor: pointer;
-    color:red;
+}
+.delete {
+    padding: 0 10vw;
+    color: red;
 }
 .diary {
-    height:auto;
+    height: auto;
     width: 80vw;
     margin: 5% 15%;
 }
-textarea, input, form button{
+form textarea,
+form input,
+form button {
     width: 70vw;
     margin-bottom: 5vw;
     border-radius: 1vw;
+}
+.settingsBtn {
+    margin: 1vw 2vw;
+    color: white;
+    height: 4em;
+    background: green;
+    width: 40vw;
+    border-radius: 8px;
 }
